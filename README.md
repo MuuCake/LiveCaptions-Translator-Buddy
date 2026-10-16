@@ -1,4 +1,3 @@
-
 <div align="center">
 
 ୨୧ ───── ฅ^•ﻌ•^ฅ ───── ୨୧
@@ -7,7 +6,7 @@
 
 **Real-time captions, live translation, and TXT recording — with a cute anime desktop companion.**
 
-Capture speech, translate subtitles, and save bilingual transcripts on Windows 11.
+Capture, translate, and save subtitles on Windows 11, accompanied by Wakaba Mutsumi! ♡
 
 ![Windows 11](https://img.shields.io/badge/Windows-11-0078D4?logo=windows11&logoColor=white)
 [![Latest Release](https://img.shields.io/github/v/release/MuuCake/LiveCaptions-Translator-Buddy?label=Latest%20Release&color=70B89A)](https://github.com/MuuCake/LiveCaptions-Translator-Buddy/releases/latest)
@@ -15,13 +14,13 @@ Capture speech, translate subtitles, and save bilingual transcripts on Windows 1
 
 ### Live Translation in Action
 
-<img src="assets/gif1_readme_reencoded.gif" alt="Korean-to-English live translation with desktop companion" width="720">
+<img src="assets/gif1_readme_reencoded.gif" alt="Live bilingual subtitles with Wakaba Mutsumi" width="720">
 
 ### [Download for Windows (x64)](https://github.com/MuuCake/LiveCaptions-Translator-Buddy/releases/latest)
 
-Download the **Windows x64 ZIP**, extract all files, keep the `_internal` folder, and run `LiveCaptionV1.5.0.exe`. No Python installation required.
+Download the **Windows x64 ZIP**, extract all files, and run `LiveCaptionV1.5.1.exe`. Keep the `_internal` folder. No Python installation required.
 
-**繁體中文：** 下載最新的 **Windows x64 ZIP 壓縮檔**，完整解壓縮並保留 `_internal` 資料夾，再執行 `LiveCaptionV1.5.0.exe`，無須安裝 Python。
+**繁體中文：** 下載最新的 **Windows x64 ZIP 壓縮檔**，完整解壓縮並保留 `_internal` 資料夾，再執行 `LiveCaptionV1.5.1.exe`，無須安裝 Python。
 
 ୨୧ ───── ฅ^•ﻌ•^ฅ ───── ୨୧
 
@@ -32,58 +31,48 @@ Download the **Windows x64 ZIP**, extract all files, keep the `_internal` folder
 ## Features
 
 ### Real-Time Captions & Translation
+- **System Audio & Microphone** modes powered by Windows 11 Live Captions.
+- Online translation with **Google Translate**.
+- Live subtitle updates with **Original / Translated / Bilingual** preview modes.
+- TXT export with optional timestamps and custom save locations.
 
-- **Two Input Modes:** System Audio and Microphone, using Windows 11 Live Captions.
-- **Two Translation Services:** Google Translate and Tencent TranSmart.
-- **Incremental Translation:** Translations update as new captions appear.
-- **Three Preview Modes:** Original, Translated, and Bilingual.
-- **Flexible TXT Export:** Save original captions, translated text, or bilingual transcripts.
+### Recording & History
+- Pause, resume, and save recordings.
+- Automatic backup and recovery.
+- Searchable SQLite history with a built-in TXT reader.
+- Long-press multi-selection and batch deletion.
 
-### TXT Recording & History
+### Wakaba Mutsumi Desktop Pet
+- Blinking, breathing, and sleepy animations.
+- Pick up, drag, and release Wakaba to watch her fall and stand back up!
+- Adjustable character size and subtitle bubble positioning.
+- Supports Windows light and dark themes.
 
-- Custom TXT filenames and save locations.
-- Optional timestamps and pause/resume recording.
-- Automatic backups and recovery after unexpected interruptions.
-- Searchable recording history powered by SQLite.
-- Built-in TXT reader for viewing and managing saved transcripts.
-
-### Anime Desktop Companion
-
-- **Wakaba Mutsumi** desktop pet from *BanG Dream! Ave Mujica*.
-- Transparent background with blinking, breathing, and sleepy animations.
-- Mouse click interactions and draggable positioning.
-- Four adjustable sizes: **160 / 200 / 240 / 280 px**.
-- Floating subtitle bubbles showing original, translated, or bilingual text.
-- Customizable bubble positioning: **Automatic / Left / Right**.
-
-### Interface & Appearance
-
-- **12 UI languages** with in-app language selection.
-- Automatic Windows light and dark theme support.
-- Customizable translation, recording, and appearance settings.
-- Standalone Windows 11 x64 application.
+### Multilingual Interface
+- **12 UI languages**, with English as the default.
+- Customizable recording, translation, and appearance settings.
 
 ---
 
 ## Screenshots & Demos
 
-### Main Interface & Translation Settings
+### Translation Settings
 
-Choose your audio mode, translation service, and language preferences.
+Customize Google Translate and your subtitle preferences.
 
 <div align="center">
 
-<img src="assets/GIF2_UI_Demo.gif" alt="Main interface and translation settings" width="720">
+<img src="assets/Wakaba_Translation_Settings_No_Black_Borders.gif" alt="Google Translate settings" width="470">
 
 </div>
 
-### Desktop Pet Customization
+### Desktop Pet Interaction
 
-Move and resize your desktop companion, and choose where subtitle bubbles appear.
+Pick up Wakaba, move her around, and watch her adorable falling animations! ฅ^•ﻌ•^ฅ
 
 <div align="center">
 
-<img src="assets/GIF3_Customization.gif" alt="Desktop pet movement and customization" width="780">
+<img src="assets/Wakaba_Drag_and_Fall_No_Black_Borders.gif" alt="Wakaba drag and fall animation" width="720">
 
 </div>
 
@@ -93,7 +82,7 @@ Automatically follows your Windows appearance settings.
 
 <div align="center">
 
-<img src="assets/theme_comparison.png" alt="Dark and light theme comparison" width="850">
+<img src="assets/darklightmode.png" alt="Light and dark theme comparison" width="850">
 
 </div>
 
@@ -101,9 +90,7 @@ Automatically follows your Windows appearance settings.
 
 ## Supported UI Languages
 
-LiveCaptions Translator Buddy supports **12 interface languages**:
-
-| Language | Language |
+| | |
 |---|---|
 | English | Português (Brasil) |
 | 한국어 | Bahasa Indonesia |
@@ -112,40 +99,28 @@ LiveCaptions Translator Buddy supports **12 interface languages**:
 | 日本語 | Français |
 | Español | Русский |
 
-**Note:** UI languages are different from speech recognition and translation languages. Speech recognition is provided by Windows Live Captions.
-
----
-
-## Translation Notes
-
-Choose between **Google Translate** and **Tencent TranSmart** in the translation settings.
-
-> **繁體中文提醒：** 中國大陸用戶建議優先選擇 **騰訊翻譯（Tencent TranSmart）**。Google 翻譯在部分網路環境下可能無法正常使用。
-
-Online translation requires an internet connection. Translation quality and response times depend on the selected service and network conditions.
+**Note:** UI language settings do not change speech recognition languages. Speech recognition is provided by Windows Live Captions.
 
 ---
 
 ## Quick Start
 
-1. Download and fully extract the Windows ZIP from [Releases](https://github.com/MuuCake/LiveCaptions-Translator-Buddy/releases/latest).
-2. Run `LiveCaptionV1.5.0.exe` while keeping the `_internal` folder in place.
-3. Select your preferred UI language.
-4. Choose **System Audio** or **Microphone**.
-5. Configure translation and recording settings as needed.
-6. Start capturing captions and save your TXT transcripts.
+1. Download the latest ZIP from [Releases](https://github.com/MuuCake/LiveCaptions-Translator-Buddy/releases/latest).
+2. Extract it and run `LiveCaptionV1.5.1.exe`.
+3. Choose **System Audio** or **Microphone**.
+4. Customize your settings and start recording!
 
-Previously saved recordings can be accessed through **History**.
+Access saved transcripts through **History**.
 
 ---
 
 ## Requirements & Notes
 
-- **Operating System:** Windows 11 (64-bit).
+- **OS:** Windows 11 (64-bit).
 - **Speech Recognition:** Windows Live Captions.
-- **Internet Connection:** Required for online translation.
-- **Python:** Not required for the packaged EXE.
-- **Security:** The application is not currently code-signed. Windows may display a security warning. Verify the download source before running it.
+- **Translation:** Google Translate (internet required; availability depends on your network).
+- **Python:** Not required.
+- **Security:** This application is currently unsigned. Windows security features may warn about or block the EXE. Verify the source before running it.
 
 ---
 
@@ -153,15 +128,13 @@ Previously saved recordings can be accessed through **History**.
 
 Created by **[MuuCake](https://github.com/MuuCake)**.
 
-Built with Python, PySide6/Qt, and Windows Live Captions integration.
-
-Translation services: Google Translate and Tencent TranSmart.
+Built with Python, PySide6/Qt, and Windows Live Captions.
 
 Desktop companion: Wakaba Mutsumi from *BanG Dream! Ave Mujica*.
 
-This is an unofficial project and is not affiliated with or endorsed by Microsoft, Google, Tencent, or the rights holders of *BanG Dream! Ave Mujica*.
+This is an unofficial fan project and is not affiliated with Microsoft, Google, or the rights holders of *BanG Dream! Ave Mujica*.
 
-**License:** Earlier published source code in this repository is under the [MIT License](LICENSE). The v1.5.0 application is distributed as a compiled Windows package, and its application source code is not publicly released. Third-party libraries, characters, artwork, and trademarks remain subject to their respective licenses and rights.
+**License:** Publicly available source files in this repository are covered by the [MIT License](LICENSE). The v1.5.1 application is distributed as a compiled Windows package; its full application source is not included in this release. Third-party libraries, artwork, characters, and trademarks remain subject to their respective rights and licenses.
 
 ---
 
@@ -169,7 +142,7 @@ This is an unofficial project and is not affiliated with or endorsed by Microsof
 
 ୨୧ ───── ฅ^•ﻌ•^ฅ ───── ୨୧
 
-**Made by [MuuCake](https://github.com/MuuCake)**
+**Made with ♡ by [MuuCake](https://github.com/MuuCake)**
 
 [Download Latest Release](https://github.com/MuuCake/LiveCaptions-Translator-Buddy/releases/latest)
 
